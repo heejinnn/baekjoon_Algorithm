@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A672B872B306C020021188D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A672B862B306C020021188D /* main.swift */; };
+		4A2F32852B3EA3D700241B72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F32842B3EA3D700241B72 /* main.swift */; };
 		4A672C0D2B3073C70021188D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A672C0C2B3073C70021188D /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A2F32842B3EA3D700241B72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4A672B832B306C020021188D /* baekjoon_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baekjoon_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A672B862B306C020021188D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4A672BCC2B306CF20021188D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4A672BCE2B306CF20021188D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4A672BD02B306CF20021188D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -71,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A2F32832B3EA39A00241B72 /* boj-5766 */ = {
+			isa = PBXGroup;
+			children = (
+				4A2F32842B3EA3D700241B72 /* main.swift */,
+			);
+			path = "boj-5766";
+			sourceTree = "<group>";
+		};
 		4A672B7A2B306C020021188D = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +98,7 @@
 		4A672B852B306C020021188D /* baekjoon_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				4A672B862B306C020021188D /* main.swift */,
+				4A2F32832B3EA39A00241B72 /* boj-5766 */,
 				4A672BDD2B306CF30021188D /* boj-1012 */,
 				4A672BF72B306CF30021188D /* boj-1074 */,
 				4A672BE92B306CF30021188D /* boj-1260 */,
@@ -443,7 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A672C0D2B3073C70021188D /* main.swift in Sources */,
-				4A672B872B306C020021188D /* main.swift in Sources */,
+				4A2F32852B3EA3D700241B72 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
